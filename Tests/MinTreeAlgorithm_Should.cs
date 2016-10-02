@@ -98,7 +98,7 @@ namespace Tests
 
             graph.AddEdge(nodes[3].Number, nodes[4].Number);
 
-            var weights = new Dictionary<Edge, double>
+            var weights = new Dictionary<Edge, int>
             {
                 {new Edge(nodes[0], nodes[1]), 8},
                 {new Edge(nodes[0], nodes[2]), 6},
@@ -292,7 +292,7 @@ namespace Tests
             graph.AddEdge(nodes[8].Number, nodes[9].Number);
 
 
-            var weights = new Dictionary<Edge, double>
+            var weights = new Dictionary<Edge, int>
             {
                 {new Edge(nodes[0], nodes[1]), 6},
                 {new Edge(nodes[0], nodes[3]), 3},

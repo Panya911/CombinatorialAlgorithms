@@ -49,7 +49,7 @@ namespace СombinatorialAlgorithms.MinTree
             return result;
         }
 
-        public static Graph BuildKruskalMinTree(Graph graph, Dictionary<Edge, double> weights)
+        public static Graph BuildKruskalMinTree(Graph graph, Dictionary<Edge, int> weights)
         {
             var result = new Graph();
             foreach (var node in graph.Nodes)
